@@ -23,7 +23,7 @@ io.initializeHandlers([
  ]);
 
  app.use(cors());
- app.use("/img", express.static(path.resolve( __dirname, 'picture', 'slider')));
+ app.use("/img", express.static(path.resolve( __dirname, '..', 'picture', 'slider')));
  app.use('/',router);
 
 
