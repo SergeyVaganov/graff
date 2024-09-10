@@ -5,7 +5,7 @@ import path from 'path'
 class CaruselController {
 
     static getListImg() {
-        const pictPath = path.resolve(__dirname, '..', 'picture', 'slider')
+        const pictPath = path.resolve(__dirname, '..', '..', 'picture', 'slider')
         const files = fs.readdirSync(pictPath);
         return files
     }
