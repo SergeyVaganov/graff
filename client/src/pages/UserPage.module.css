@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.carusel {
+    width: 800px;
+    padding: 24px 0px;
+    flex-grow: 1;
+    border-top: 1px solid var(--background);
+    border-bottom: 1px solid var(--background);
+}
+
+.chat {
+    border: 1px solid var(--background);
+    width: 380px;
+}
+
+.massages {
+    background-color: var(--background);
+}
+
+.title {
+    padding-left: 16px;
+    height: 56px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    line-height: 3;
+}

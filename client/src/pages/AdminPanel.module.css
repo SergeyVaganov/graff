@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    width: 360px;
+    border-top: 1px solid var(--background);
+    border-right: 1px solid var(--background);   
+    max-height: 900px;
+    min-height: 250px;
+    min-width: 360px;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 ;
+    background-color: var(--background);
+    justify-content: end;
+    align-items: stretch;
+}
+
+.main{
+    border: 1px solid var(--background);
+}
+

@@ -1,0 +1,63 @@
+.carusel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+}
+
+.carts {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    transition: translateX;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+.arrowR {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.arrowL {
+    cursor: pointer;
+    position: absolute;
+    left: 64px;
+    background-image: url('/img/slider/arrowL_default.svg');
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+}
+
+.arrowL:hover {
+    background-image: url('/img/slider/arrowL_hover.svg');
+}
+
+.arrowR {
+    cursor: pointer;
+    position: absolute;
+    right: 64px;
+    background-image: url('/img/slider/arrowL_default.svg');
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+.arrowR:hover {
+    background-image: url('/img/slider/arrowL_hover.svg');
+}
+
